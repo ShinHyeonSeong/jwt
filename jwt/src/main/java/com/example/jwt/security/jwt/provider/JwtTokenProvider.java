@@ -1,10 +1,8 @@
-package com.example.jwt.security.jwt;
+package com.example.jwt.security.jwt.provider;
 
-import com.example.jwt.constants.JwtConstants;
+import com.example.jwt.security.jwt.constants.JwtConstants;
 import com.example.jwt.dto.CustomUser;
-import com.example.jwt.dto.UserAuthDto;
 import com.example.jwt.dto.UserDto;
-import com.example.jwt.entity.UserEntity;
 import com.example.jwt.prop.JwtProp;
 import com.example.jwt.service.UserService;
 import io.jsonwebtoken.*;

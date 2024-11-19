@@ -1,7 +1,6 @@
 package com.example.jwt.security.jwt;
 
 import com.example.jwt.dto.CustomUser;
-import com.example.jwt.dto.UserDto;
 import com.example.jwt.entity.UserEntity;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
@@ -16,7 +15,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 import java.io.IOException;
 
-import static com.example.jwt.constants.JwtConstants.AUTH_LOGIN_URL;
+import static com.example.jwt.security.jwt.constants.JwtConstants.AUTH_LOGIN_URL;
 
 /**
  * client -> filter (현재 클래스 필터 설정) -> server

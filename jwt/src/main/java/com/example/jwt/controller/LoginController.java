@@ -1,6 +1,6 @@
 package com.example.jwt.controller;
 
-import com.example.jwt.constants.JwtConstants;
+import com.example.jwt.security.jwt.constants.JwtConstants;
 import com.example.jwt.domain.AuthenticationRequest;
 import com.example.jwt.prop.JwtProp;
 import io.jsonwebtoken.Claims;
@@ -13,7 +13,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.security.Key;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;

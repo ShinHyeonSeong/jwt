@@ -1,4 +1,4 @@
-package com.example.jwt.constants;
+package com.example.jwt.security.jwt.constants;
 
 // JWT 관련 상수 정의
 public class JwtConstants {
